@@ -31,7 +31,6 @@ public class Main1
 		    for(int j=1;j<=i;j++){
 		        System.out.print(j+" ");
 		    }
-		    p--;
 		    System.out.println();
 		}
 	}
