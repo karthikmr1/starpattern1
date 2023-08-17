@@ -14,6 +14,23 @@ public class Main
 		    }    
         }
 	public static void main(String[] args) {
-      writenumber(5);
+      	writenumber(5);
     }
+}
+
+// # numberpattern1 (decrement)
+
+public class Main1
+{
+	public static void main (String[] args) {
+		int p=5;
+		
+		for(int i=p;i>=1;i--){
+		    for(int j=1;j<=i;j++){
+		        System.out.print(j+" ");
+		    }
+		    p--;
+		    System.out.println();
+		}
+	}
 }
