@@ -20,7 +20,7 @@ public class Main
 
 // # numberpattern1 (decrement)
 
-public class Main1
+public class Main
 {
 	public static void main (String[] args) {
 		int p=5;
