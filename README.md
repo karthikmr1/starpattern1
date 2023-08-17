@@ -1,7 +1,7 @@
 // PATTERNS
 
 // # starpattern1
-// Star pattern 4*4, 5*5, 7*7 etc
+// Star pattern 4*4 , 5*5, 7*7 etc
 
 public class Main
 {
@@ -19,11 +19,15 @@ public class Main
 }
 
 // # numberpattern1 (decrement)
+// 1 2 3 4 
+// 1 2 3
+// 1 2
+// 1
 
 public class Main
 {
 	public static void main (String[] args) {
-		int p=5;
+		int p=4;
 		
 		for(int i=p;i>=1;i--){
 		    for(int j=1;j<=i;j++){
@@ -35,11 +39,15 @@ public class Main
 }
 
 // # numberpattern1 (decrement)
+// 1 1 1 1
+// 2 2 2
+// 3 3
+// 4
 
 public class Main
 {
 	public static void main(String[] args) {
-	int p=5;
+	int p=4;
         int a=1;
 	    for(int i=p;i>=1;i--){
 	        for(int j=1;j<=i;j++){
