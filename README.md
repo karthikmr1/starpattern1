@@ -94,3 +94,34 @@ public class Main
 		}
 	}
 }
+
+// #numberpattern4 (increment and decrement)
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+// 1 2 3 4 5 
+// 1 2 3 4 
+// 1 2 3 
+// 1 2 
+// 1
+public class Main
+{
+	public static void main(String[] args) {
+		int d=5;
+		
+		for(int i=1;i<=d;i++){
+		    for(int j=1;j<=i;j++){
+		        System.out.print(j+" ");
+		    }
+		    System.out.println();
+		}
+		
+		for(int k=d-1;k>=1;k--){
+		    for(int m=1;m<=k;m++){
+		        System.out.print(m+" ");
+		    }
+		    System.out.println();
+		}
+	}
+}
